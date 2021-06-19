@@ -14,7 +14,7 @@ int main(void) {
   }
 int max(int x[], int y){
     int max = x[0];
-       for(int i = 0; i < y; i++){
+       for(int i = 1; i < y; i++){
         if(max < x[i]){
          max = x[i];
         }
