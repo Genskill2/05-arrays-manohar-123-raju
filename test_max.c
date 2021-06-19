@@ -13,11 +13,11 @@ int main(void) {
   printf("Max: passed\n");
   }
 int max(int a[], int y){
-    int max = a[0];
-       for(int i = 1; i < y; i++){
-        if(max < a[i]){
-         max = a[i];
+    int m = a[0];
+       for(int i = 0; i < y; i++){
+        if(m < a[i]){
+         m = a[i];
         }
        }
-  return max;
+  return m;
   }
