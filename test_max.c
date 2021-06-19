@@ -12,9 +12,9 @@ int main(void) {
   assert (max(y, 1) == 5);
   printf("Max: passed\n");
   }
-int max(int a[], int y){
+  int max(int a[], int y){
     int m = a[0];
-       for(int i = 1 ; i < y ; i++){
+       for(int i = 1; i < y; i++){
         if(m < a[i]){
          m = a[i];
         }
